@@ -5,7 +5,7 @@ import numpy as np
 
 def alfa_avg(data, alfa):
     n = len(data)
-    n_alfa = math.ceil(n * alfa)
+    n_alfa = math.floor(n * alfa)
     summ = sum(data[n_alfa:n - n_alfa])
     # for i in range(n_alfa, n - n_alfa):
     #     summ += data[i]
