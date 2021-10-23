@@ -43,4 +43,4 @@ if __name__ == '__main__':
     end = 0
     while geom.cdf(end, less_then_16) < 0.75:
         end += 1
-    print(geom.cdf(end, less_then_16) - geom.cdf(start, less_then_16))
+    print("the third quarter is : " + str(geom.cdf(end, less_then_16) - geom.cdf(start - 1, less_then_16)))
