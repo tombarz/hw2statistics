@@ -11,7 +11,6 @@ def alfa_avg(data, alfa):
     #     summ += data[i]
     return summ / (n - 2 * n_alfa)
 
-
 # test = (69 + 84 + 88 + 92) / 4
 # data2 = [1, 2, 4, 4, 5, 6, 7, 8]
 
